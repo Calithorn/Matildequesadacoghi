@@ -1,0 +1,135 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    width: 80%;
+    height: 900px;
+    margin: 0 auto;
+    min-width: 800px;
+}
+
+.titulogaleria{
+    height: 55px;
+    border: 3px solid black;
+    border-radius: 5px;
+    text-align: center;
+    color:  rgb(199, 139, 60);
+    padding: 5px;
+    margin-top: 5px;
+    font-style: italic;
+    font-size: large;
+}
+nav{
+    border: 3px solid black;
+    border-radius: 5px;
+    
+}
+
+nav ul{
+    list-style: none;
+    width: 600px;
+    margin: auto;
+    overflow: hidden;
+}
+nav ul li{
+    color: rgb(199, 139, 60); 
+    margin: auto;
+    display: block;
+    float: left;
+}
+
+nav ul li a:hover{color: black;
+    background-color: rgb(252, 201, 134);
+    border-radius: 13px;
+    
+}
+
+nav ul li a{
+   text-decoration: none;
+   padding: 10px;
+   margin-left: 35px;
+   margin-right: 35px;
+   color: black;
+}
+
+ /*aqui termina header*/
+
+main{
+    padding: 20px;
+}
+.grupo{
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgb(0, 0, 0, 0.5); 
+    display: flex;
+}
+.card-container{
+    display: flex;
+}
+.card{
+    flex: 1;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    justify-content: center;
+}
+.sola{
+    margin-left: 120px;
+    box-shadow: 0px 4px 8px rgb(0, 0, 0, 0.5);
+    border-radius: 10px;
+}
+
+.card article img{
+    height:450px;
+    max-width: 100%;
+    
+}
+ .sola .card article img{
+    height: 600px;
+    width: 100%;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ main{
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ }
+
+ main .galeriabox{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+ }
+
+ main .galeriabox .columns{
+    display: flex;
+    flex-direction: column;
+    width: 32.5%;
+ }
+ main .galeriabox .columns img{
+    width: 100%;
+    padding-bottom: 15px;
+    border-radius: 5px;
+ }
